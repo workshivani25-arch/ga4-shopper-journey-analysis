@@ -1,0 +1,4 @@
+device,cart_sessions,abandoned_sessions,abandonment_rate_pct,left_at_cart,left_before_shipping,left_before_payment,left_after_payment
+desktop,8790,7184,81.7,5364,1,2507,1137
+mobile,6077,4897,80.6,3672,0,1698,785
+tablet,321,259,80.7,191,0,88,48

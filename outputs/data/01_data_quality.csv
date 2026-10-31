@@ -1,0 +1,5 @@
+check_name,affected_events,total_events,pct_of_all_events
+Events with unassigned or obfuscated traffic source,1303672,4295584,30.35
+Purchase events missing transaction_id,906,4295584,0.02
+Events missing ga_session_id,0,4295584,0.0
+"Duplicate events (same user, event and timestamp)",,4295584,

@@ -22,7 +22,7 @@ totals AS (
 
 duplicates AS (
   -- Same user, same event, same microsecond: almost certainly a double-fired tag.
-  SELECT SUM(cnt - 1) AS duplicate_events
+  SELECT IFNULL(SUM(cnt - 1), 0) AS duplicate_events  -- 0 when no duplicates exist
   FROM (
     SELECT user_pseudo_id, event_name, event_timestamp, COUNT(*) AS cnt
     FROM events

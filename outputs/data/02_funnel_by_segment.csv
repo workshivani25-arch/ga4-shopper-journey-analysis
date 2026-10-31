@@ -1,0 +1,13 @@
+segment_type,segment,sessions,view_item_sessions,add_to_cart_sessions,checkout_sessions,purchase_sessions,view_to_cart_pct,cart_to_checkout_pct,checkout_to_purchase_pct,session_conversion_pct
+All,All sessions,360129,77020,15188,11106,4848,19.7,73.1,43.7,1.35
+Channel,Organic search,122841,25740,4735,3411,1347,18.4,72.0,39.5,1.1
+Channel,Direct,83459,17678,3512,2515,1079,19.9,71.6,42.9,1.29
+Channel,Referral,63524,14090,2922,2203,1056,20.7,75.4,47.9,1.66
+Channel,Other,52058,10589,1983,1383,506,18.7,69.7,36.6,0.97
+Channel,Unknown (obfuscated),22629,5755,1471,1203,707,25.6,81.8,58.8,3.12
+Channel,Paid search,15618,3168,565,391,153,17.8,69.2,39.1,0.98
+Customer type,New,261238,52171,8853,5974,1780,17.0,67.5,29.8,0.68
+Customer type,Returning,98891,24849,6335,5132,3068,25.5,81.0,59.8,3.1
+Device,desktop,208942,44819,8790,6392,2749,19.6,72.7,43.0,1.32
+Device,mobile,143185,30501,6077,4474,1995,19.9,73.6,44.6,1.39
+Device,tablet,8002,1700,321,240,104,18.9,74.8,43.3,1.3

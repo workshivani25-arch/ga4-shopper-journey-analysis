@@ -127,11 +127,6 @@ def chart_products(df: pd.DataFrame) -> None:
     for group, g in df.groupby("product_group"):
         ax.scatter(g["views"], g["units_per_100_views"], s=22, alpha=0.8,
                    color=colours.get(group, GREY), label=group)
-    # Label the five most-viewed weak converters
-    weak = df[df["product_group"] == "High interest, low conversion"].nlargest(5, "views")
-    for _, r in weak.iterrows():
-        ax.annotate(str(r["item_name"])[:28], (r["views"], r["units_per_100_views"]),
-                    fontsize=7, xytext=(4, 4), textcoords="offset points")
     ax.set_xscale("log")
     ax.set_title("Product interest vs conversion", loc="left")
     ax.set_xlabel("Product views (log scale)")
